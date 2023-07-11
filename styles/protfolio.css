@@ -6,7 +6,7 @@ nav {
  display: flex;  
  justify-content: space-between;
  align-items: center;
-
+margin: 0 100px;
 }
 nav li{
     list-style: none;
@@ -22,7 +22,7 @@ nav > ul{
     font-weight: bolder;
     font-size: 45px;
     font-family: 'Open Sans';
-    margin: 45px;
+    margin: 30px;
 
 }
 .text-primary{
@@ -30,15 +30,25 @@ nav > ul{
 }
 .button-primary{
     background: #FD6E0A;
-width:75px ;
+width:95px ;
 height: 40px;
 padding: 10px;
 color: aliceblue;
-font-weight: 700px;
-font-size: 12px;
-font-family: 'Open Sans';
+font-weight: bold;
+font-size: 10px;
+border: 0;
+/* font-family: 'Open Sans'; */
 }
 nav li a{
     text-decoration: none;
     color: rgb(20, 20, 20);
+}
+/* header releted */
+.header{
+    background: #FFF8F3;
+   
+}
+.banner{
+    padding: 30px 30px 30px 120px;
+    display: flex;
 }
