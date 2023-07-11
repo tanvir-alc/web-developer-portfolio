@@ -36,7 +36,8 @@ padding: 10px;
 color: aliceblue;
 font-weight: bold;
 font-size: 10px;
-border: 0;
+border: 0
+
 /* font-family: 'Open Sans'; */
 }
 nav li a{
@@ -49,6 +50,10 @@ nav li a{
    
 }
 .banner{
-    padding: 30px 30px 30px 120px;
+    padding: 30px 30px 20px 120px;
     display: flex;
+    align-items: center;
+}
+.profile-pic{
+    width: 300px;
 }
