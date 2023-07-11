@@ -1,8 +1,44 @@
-nav > ul{
- display: flex;   
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato',sans-serif;
+}
+nav {
+ display: flex;  
+ justify-content: space-between;
+ align-items: center;
+
 }
 nav li{
     list-style: none;
     padding-right: 15px;
-    text-align: right;
+    margin-right: 50px;
+   
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+.nav-title{ 
+    font-weight: bolder;
+    font-size: 45px;
+    font-family: 'Open Sans';
+    margin: 45px;
+
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.button-primary{
+    background: #FD6E0A;
+width:75px ;
+height: 40px;
+padding: 10px;
+color: aliceblue;
+font-weight: 700px;
+font-size: 12px;
+font-family: 'Open Sans';
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(20, 20, 20);
 }
