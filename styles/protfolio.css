@@ -1,0 +1,8 @@
+nav > ul{
+ display: flex;   
+}
+nav li{
+    list-style: none;
+    padding-right: 15px;
+    text-align: right;
+}
