@@ -169,5 +169,23 @@ footer{
     background: #FFF8F3;
     padding: 130px 200px;
     margin-top: 100px;
+    gap: 100px;
 
+
+}
+.footer-column{
+    width: 50%;
+}
+.contact input[type="text"],input[type="email"]
+,textarea{
+    display: block;
+    margin-bottom:25px ;
+    padding: 18px 35px;
+    color: #757575;
+    border: 0;
+    width: 100%;
+    background: #FFF;
+}
+.social-link a{
+    margin-right:30px;
 }
